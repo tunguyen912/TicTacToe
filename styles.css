@@ -111,6 +111,7 @@ body{
     color: white;
     font-size: 5rem;
     flex-direction: column;
+    display: none;
 }
 
 
@@ -130,6 +131,6 @@ body{
     border-color: white;
 }
 
-.winning-message.show{
+.winning-message .show{
     display: flex;
 }
